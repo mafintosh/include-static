@@ -1,0 +1,21 @@
+{
+  "name": "include-static",
+  "version": "0.0.0",
+  "description": "Inlines files to c/c++ header files",
+  "main": "index.js",
+  "bin": {
+    "include-static": "./index.js"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mafintosh/include-static.git"
+  },
+  "author": "Mathias Buus (@mafintosh)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mafintosh/include-static/issues"
+  },
+  "homepage": "https://github.com/mafintosh/include-static"
+}
