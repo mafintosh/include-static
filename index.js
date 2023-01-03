@@ -5,7 +5,8 @@ const fs = require('fs')
 let s = ''
 let i = 2
 
-for (; i < process.argv.length; i += 2) {
+
+for (; i + 1 < process.argv.length; i += 2) {
   if (s) s += '\n'
 
   const name = process.argv[i]
