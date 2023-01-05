@@ -4,10 +4,15 @@
   "description": "Inlines files to c/c++ header files",
   "main": "index.js",
   "bin": {
-    "include-static": "./index.js"
+    "include-static": "./bin.js"
+  },
+  "scripts": {
+    "test": "standard"
   },
   "dependencies": {},
-  "devDependencies": {},
+  "devDependencies": {
+    "standard": "^17.0.0"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/mafintosh/include-static.git"
